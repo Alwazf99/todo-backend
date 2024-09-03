@@ -26,14 +26,15 @@ This Node.js command-line interface (CLI) tool counts the number of words in a s
 ``bash
 node index.mjs
 
-##Testing with Postman
-You can test the API endpoints using Postman by following these steps:
+## Testing with Postman
 
-Install Postman: Download and install Postman from postman.com.
+** You can test the API endpoints using Postman by following these steps:
 
-Create a new request:
+** Install Postman: Download and install Postman from postman.com.
 
-For POST: Set the method to POST, enter http://localhost:3000/todos as the URL, and select Body > raw > JSON. Paste the JSON object and click Send.
-For GET: Set the method to GET and enter http://localhost:3000/todos as the URL. Click Send to retrieve the todos.
-For PUT: Set the method to PUT, enter http://localhost:3000/todos/{id} as the URL, replace {id} with the actual ID of the todo, and select Body > raw > JSON. Paste the updated JSON object and click Send.
-For DELETE: Set the method to DELETE, enter http://localhost:3000/todos/{id} as the URL, replace {id} with the actual ID of the todo, and click Send.
+** Create a new request:
+
+- ** For POST: Set the method to POST, enter http://localhost:3000/todos as the URL, and select Body > raw > JSON. Paste the JSON object and click Send.
+- ** For GET: Set the method to GET and enter http://localhost:3000/todos as the URL. Click Send to retrieve the todos.
+- ** For PUT: Set the method to PUT, enter http://localhost:3000/todos/{id} as the URL, replace {id} with the actual ID of the todo, and select Body > raw > JSON. Paste the updated JSON object and click Send.
+- ** For DELETE: Set the method to DELETE, enter http://localhost:3000/todos/{id} as the URL, replace {id} with the actual ID of the todo, and click Send.
