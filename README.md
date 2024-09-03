@@ -23,9 +23,9 @@ This Node.js command-line interface (CLI) tool counts the number of words in a s
 ## Usage
 **Run the script:**
 
-``bash
+```bash
 node index.mjs
-``
+```
 ## Testing with Postman
 
 ** You can test the API endpoints using Postman by following these steps:
