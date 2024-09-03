@@ -25,7 +25,7 @@ This Node.js command-line interface (CLI) tool counts the number of words in a s
 
 ``bash
 node index.mjs
-
+``
 ## Testing with Postman
 
 ** You can test the API endpoints using Postman by following these steps:
